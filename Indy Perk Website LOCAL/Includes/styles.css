@@ -1,0 +1,175 @@
+/* CSS Document */
+body{
+	margin: 0;
+	max-width: 200px;
+}
+
+.Background_Color {
+  background-image: url("Background Color.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1680px;
+  height: 1800px;
+  z-index: 1;
+}
+
+.Background_Pattern {
+  background-image: url(../Elements/background2.jpg);
+  opacity: 0.05;
+  position: absolute;
+  left: -10px;
+  top: -18px;
+  width: 1680px;
+  height: 1843px;
+  z-index: 1;
+}
+
+.Brick_Rectangle {
+  background-color: rgb(167, 242, 236);
+  position: absolute;
+  left: 0px;
+  top: 700px;
+  width: 1680px;
+  height: 488px;
+  z-index: 5;
+}
+
+.Brick_Tint {
+  background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+  position: absolute;
+  left: -3px;
+  top: 452px;
+  width: 1680;
+  height: 491px;
+  z-index: 7;
+}
+
+.Wood_Pannel_TOP {
+  background-color: rgb(152, 253, 245);
+  content: url(../Elements/woodgrainTop.JPG);
+  position: absolute;
+  left: -1px;
+  top: 280px;
+  width: 1680px;
+  height: 87px;
+  z-index: 10;
+}
+
+.Wood_Pannel_BOTTOM {
+  background-color: rgb(152, 253, 245);
+  content: url(../Elements/woodgrainBottom.JPG);
+  position: absolute;
+  left: 0px;
+  top: 1760px;
+  width: 1680px;
+  height: 87px;
+  z-index: 8;
+}
+
+.Home_Button {
+  font-size: 48px;
+  font-family: "Century Gothic";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 0.91343004211511,0,0,1,0,0);
+  -webkit-transform: matrix( 0.91343004211511,0,0,1,0,0);
+  -ms-transform: matrix( 0.91343004211511,0,0,1,0,0);
+  position: absolute;
+  left: 78.484px;
+  top: 295px;
+  width: 175.688px;
+  height: 44px;
+  z-index: 18;
+}
+
+.About_Button {
+  font-size: 48px;
+  font-family: "Century Gothic";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 0.91343004211511,0,0,1,0,0);
+  -webkit-transform: matrix( 0.91343004211511,0,0,1,0,0);
+  -ms-transform: matrix( 0.91343004211511,0,0,1,0,0);
+  position: absolute;
+  left: 269.485px;
+  top: 295px;
+  width: 180.375px;
+  height: 44px;
+  z-index: 19;
+}
+
+.Menu_Button {
+	font-size: 48px;
+	font-family: "Century Gothic";
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+	-moz-transform: matrix( 0.91343004211511,0,0,1,0,0);
+	-webkit-transform: matrix( 0.91343004211511,0,0,1,0,0);
+	-ms-transform: matrix( 0.91343004211511,0,0,1,0,0);
+	position: absolute;
+	left: 930px;
+	top: 295px;
+	width: 169.008px;
+	height: 44px;
+	z-index: 20;
+}
+
+.Contact_Us_Button {
+  font-size: 48px;
+  font-family: "Century Gothic";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 0.91343004211511,0,0,1,0,0);
+  -webkit-transform: matrix( 0.91343004211511,0,0,1,0,0);
+  -ms-transform: matrix( 0.91343004211511,0,0,1,0,0);
+  position: absolute;
+  left: 1200px;
+  top: 295px;
+  width: 231.351px;
+  height: 44px;
+  z-index: 21;
+}
+
+.Signature {
+  font-size: 12px;
+  font-family: "Segoe UI";
+  color: rgb(225, 196, 49);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 457.562px;
+  top: 1749.599px;
+  z-index: 23;
+}
+
+.Heart_shape {
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  left: 622px;
+  top: 1750px;
+  width: 17px;
+  height: 14px;
+  z-index: 24;
+}
+
+.Logo {
+	content: url(../Elements/IndyPerkFinal1.png);
+	position: absolute;
+	left: 492px;
+	top: 5px;
+	height: 561.312px;
+	width: 394.656px;
+	z-index: 25;
+}
+
+.logoContainer	{
+	
+}
