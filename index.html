@@ -13,9 +13,43 @@
 <div class="About_Button">About</div>
 <div class="Menu_Button">Menu</div>
 <div class="Contact_Us_Button">Contact</div>
-<div class="Brick_Rectangle"></div>
-<div class="Brick_Tint"></div>
+<div class="Blue_Rectangle"></div>
+<div id="container">
+	<div id="navigation">
+		<div class="photoGallery">
+			<img class="first" src="Photos/felafel1.JPG" alt=""/>
+			<img src="Photos/Pastrami.jpeg" alt=""/>
+			<img src="Photos/Salad.JPG" alt=""/>
+			<img src="Photos/shelf.JPG" alt=""/>
+			<img src="Photos/felafel2.JPG" alt=""/>
+			<img src="Photos/wall.JPG" alt=""/>
+			<img src="Photos/felafel1.JPG"/>
+			<img src="Photos/Pastrami.jpeg"/>
+			<img src="Photos/Salad.JPG"/>
+			<img src="Photos/shelf.JPG"/>
+		</div>
+	</div>
+</div>
 <div class="Wood_Pannel_TOP"></div>
+<div class="Gold_Rectangle">
+	<div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 41.679375, lng: -87.490468};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgfXuTeeW-vDcFHLF9bNzaPsA23wf1y2Y&callback=initMap">
+    </script>
+</div>
 <div class="Wood_Pannel_BOTTOM"></div>
 <div class="Signature"></div>
 <div class="Heart_shape"></div>
