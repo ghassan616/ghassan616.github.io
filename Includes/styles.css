@@ -1,9 +1,24 @@
 /* CSS Document */
 
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
 .Background_Color {
   position: absolute;
   top: 0px;
-  width: 100%;
+  width: 1520px;
   height: 1800px;
   z-index: 1;
 }
@@ -14,7 +29,7 @@
   position: absolute;
   top: -18px;
   left: 0px;
-  width: 100%;
+  width: 1520px;
   height: 1843px;
   z-index: 2;
 }
@@ -24,7 +39,7 @@
   position: absolute;
   top: 700px;
   left: 0px;
-  width: 100%;
+  width: 1520px;
   height: 300px;
   z-index: 5;
 }
@@ -53,13 +68,33 @@ img {
 	width: 3550px;
 }
 
+.photoGallery img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+ 
+.photoGallery img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+ 
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
 /*keyframe animations*/
 .first {
-	-webkit-animation: bannermove 33s linear infinite;
-	   -moz-animation: bannermove 33s linear infinite;
-	    -ms-animation: bannermove 33s linear infinite;
-	     -o-animation: bannermove 33s linear infinite;
-	        animation: bannermove 33s linear infinite;
+	-webkit-animation: bannermove 30s linear infinite;
+	   -moz-animation: bannermove 30s linear infinite;
+	    -ms-animation: bannermove 30s linear infinite;
+	     -o-animation: bannermove 30s linear infinite;
+	        animation: bannermove 30s linear infinite;
 }
  
 @keyframes "bannermove" {
@@ -67,7 +102,7 @@ img {
     margin-left: -200px;
  }
  100% {
-    margin-left: -2000px;
+    margin-left: -2345px;
  }
  
 }
@@ -77,7 +112,7 @@ img {
    margin-left: -200px;
  }
  100% {
-   margin-left: -2000px;
+   margin-left: -2345px;
  }
  
 }
@@ -87,7 +122,7 @@ img {
    margin-left: -200px;
  }
  100% {
-   margin-left: -2000px;
+   margin-left: -2345px;
  }
  
 }
@@ -97,7 +132,7 @@ img {
    margin-left: -200px;
  }
  100% {
-   margin-left: -2000px;
+   margin-left: -2345px;
  }
  
 }
@@ -107,7 +142,7 @@ img {
    margin-left: -200px;
  }
  100% {
-   margin-left: -2000px;
+   margin-left: -2345px;
  }
  
 }
@@ -119,7 +154,7 @@ img {
   position: absolute;
   top: 280px;
   left: 0px;
-  width: 100%;
+  width: 1520px;
   height: 87px;
   z-index: 10;
 }
@@ -130,7 +165,7 @@ img {
   position: absolute;
   top: 1760px;
   left: 0px;
-  width: 100%;
+  width: 1520px;
   height: 87px;
   z-index: 30;
 }
@@ -221,7 +256,7 @@ img {
 	position: absolute;
 	left: 0px;
 	top: 1200px;
-	width: 100%;
+	width: 1520px;
 	height: 600px;
 	z-index: 27;
 }
