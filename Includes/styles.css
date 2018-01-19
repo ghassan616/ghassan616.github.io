@@ -158,7 +158,9 @@ img {
 .Home_Button {
   font-size: 48px;
   font-family: "Century Gothic";
-  color: rgb(0, 0, 0);
+  color: #d59f0f;
+  text-decoration: underline;
+  text-decoration-color: #000f5d;
   line-height: 1.2;
   text-align: center;
   -moz-transform: matrix( 0.91343004211511,0,0,1,0,0);
@@ -168,14 +170,22 @@ img {
   left: 78.484px;
   top: 295px;
   width: 175.688px;
-  height: 44px;
+  height: 57px;
   z-index: 18;
+}
+
+.Home_Button:hover {
+	background-color: #000f5d;
+	color: #d59f0f;
+	cursor: pointer;
 }
 
 .About_Button {
   font-size: 48px;
   font-family: "Century Gothic";
-  color: rgb(0, 0, 0);
+  color: #d59f0f;
+  text-decoration: underline;
+  text-decoration-color: #000f5d;
   line-height: 1.2;
   text-align: center;
   -moz-transform: matrix( 0.91343004211511,0,0,1,0,0);
@@ -185,16 +195,24 @@ img {
   left: 269.485px;
   top: 295px;
   width: 180.375px;
-  height: 44px;
+  height: 57px;
   z-index: 19;
+}
+
+.About_Button:hover {
+	background-color: #000f5d;
+	color: #d59f0f;
+	cursor:pointer;
 }
 
 .Menu_Button {
 	font-size: 48px;
 	font-family: "Century Gothic";
-	color: rgb(0, 0, 0);
+	color: #d59f0f;
 	line-height: 1.2;
 	text-align: center;
+	text-decoration: underline;
+    text-decoration-color: #000f5d;
 	-moz-transform: matrix( 0.91343004211511,0,0,1,0,0);
 	-webkit-transform: matrix( 0.91343004211511,0,0,1,0,0);
 	-ms-transform: matrix( 0.91343004211511,0,0,1,0,0);
@@ -202,16 +220,23 @@ img {
 	left: 930px;
 	top: 295px;
 	width: 169.008px;
-	height: 44px;
+	height: 57px;
 	z-index: 20;
 }
 
+.Menu_Button:hover {
+	background-color: #000f5d;
+	color: #d59f0f;
+	cursor: pointer;
+}
 .Contact_Us_Button {
   font-size: 48px;
   font-family: "Century Gothic";
-  color: rgb(0, 0, 0);
+  color: #d59f0f;
   line-height: 1.2;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #000f5d;
   -moz-transform: matrix( 0.91343004211511,0,0,1,0,0);
   -webkit-transform: matrix( 0.91343004211511,0,0,1,0,0);
   -ms-transform: matrix( 0.91343004211511,0,0,1,0,0);
@@ -219,8 +244,14 @@ img {
   left: 1200px;
   top: 295px;
   width: 231.351px;
-  height: 44px;
+  height: 57px;
   z-index: 21;
+}
+
+.Contact_Us_Button:hover {
+	background-color: #000f5d;
+	color: #d59f0f;	
+	cursor: pointer;
 }
 
 .Signature {
