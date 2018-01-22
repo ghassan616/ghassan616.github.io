@@ -141,7 +141,7 @@ img {
   left: 0px;
   width: 1520px;
   height: 87px;
-  z-index: 10;
+  z-index: 6;
 }
 
 .Wood_Pannel_BOTTOM {
@@ -171,13 +171,14 @@ img {
   top: 295px;
   width: 175.688px;
   height: 57px;
-  z-index: 18;
+  z-index: 7;
 }
 
 .Home_Button:hover {
 	background-color: #000f5d;
 	color: #d59f0f;
 	cursor: pointer;
+	z-index: inherit;
 }
 
 .About_Button {
@@ -196,7 +197,7 @@ img {
   top: 295px;
   width: 180.375px;
   height: 57px;
-  z-index: 19;
+  z-index: 8;
 }
 
 .About_Button:hover {
@@ -221,7 +222,7 @@ img {
 	top: 295px;
 	width: 169.008px;
 	height: 57px;
-	z-index: 20;
+	z-index: 9;
 }
 
 .Menu_Button:hover {
@@ -235,8 +236,6 @@ img {
   color: #d59f0f;
   line-height: 1.2;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-color: #000f5d;
   -moz-transform: matrix( 0.91343004211511,0,0,1,0,0);
   -webkit-transform: matrix( 0.91343004211511,0,0,1,0,0);
   -ms-transform: matrix( 0.91343004211511,0,0,1,0,0);
@@ -245,7 +244,7 @@ img {
   top: 295px;
   width: 231.351px;
   height: 57px;
-  z-index: 21;
+  z-index: 10;
 }
 
 .Contact_Us_Button:hover {
@@ -306,3 +305,37 @@ img {
 	z-index: 25;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+	border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	  
+	  .Logo {
+		  height: auto;
+		  width: auto;
+	  }
+
+}
