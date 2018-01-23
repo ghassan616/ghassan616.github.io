@@ -1,8 +1,15 @@
 /* CSS Document */
 
+html, body {
+	position: absolute;
+	left: -5px;
+    width: 100%;
+}
+
 .Background_Color {
   position: absolute;
   top: 0px;
+  left: 0px;
   width: 1520px;
   height: 1800px;
   z-index: 1;
@@ -30,7 +37,7 @@
 }
 
 #container {
-	width: 1510px;
+	width: 1520px;
 	height: 1500px;
 	overflow: hidden;
 	position: relative;
@@ -325,17 +332,4 @@ img {
 .fa-facebook {
     background: #3B5998;
     color: white;
-}
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-	  
-	  .Logo {
-		  height: auto;
-		  width: auto;
-	  }
-
 }
