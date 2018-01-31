@@ -1,0 +1,76 @@
+/* CSS Document */
+
+body, html {
+    height: 100%;
+    font-family: "Century Gothic";
+}
+.bgimg {
+    background-position: center;
+    background-size: 25%;
+	background-repeat: no-repeat;
+    background-image: url(Elements/IndyPerkFinal1.png);
+	filter: contrast(100%);
+    min-height: 85%;
+	top: 30px;
+}
+	
+.menu {
+    display: none;
+}
+
+/* custom color BLUE */
+.w3-colorb {
+	color:#fff !important;background-color:#000F5D !important
+}
+
+/* custom color GOLD */
+.w3-colorg {
+	color:#fff !important;background-color:#D59F0F !important
+}
+
+/* section title text color GOLD */
+.w3-tag {
+	color: #fff !important;color:#D59F0F !important
+}
+
+/* main tablinks on hover color GOLD */
+.w3-block:hover {
+	background-color: #fff !important;background-color:#D59F0F !important
+}
+
+/* menu tablinks on hover GOLD */
+.tablink:hover {
+	background-color: #fff !important;background-color:#D59F0F !important	
+}
+
+/* meet the crew profile pictures */
+.img-circular {
+	background-size: cover;
+	display: block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position:relative;
+	top: 15px;
+	left: 250px;
+}
+
+/* facebook link */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #3B5998;
+}

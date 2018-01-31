@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<title>Indy Perk &mdash; Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-colorb">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-colorb" style="font-size: 18px">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-colorb" style="font-size: 18px">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-colorb" style="font-size: 18px">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-colorb" style="font-size: 18px">CONTACT US</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home"></header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-white w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-white">ABOUT INDY PERK</span></h5>
+    <p>The Cafe was founded in blabla by Erica Hernandez in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-white">MEET THE CREW</span></h5>
+    <div class="w3-panel w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-light-grey">
+      <img class="img-circular" src="Photos/cakeCoffee.jpg"><p style="text-align: center"><strong>ERICA HERNANDEZ</strong>&mdash; Owner/Chef/Coffeeist</p>
+      &nbsp;
+      <img class="img-circular" src="Photos/shelf.JPG"><p style="text-align: center"><strong>LOLA SOMETHING</strong>&mdash; Barista</p>
+      &nbsp;
+      <img class="img-circular" src="Elements/brick-wall2.jpg"><p style="text-align: center"><strong>GABRIELLA SOMETHING</strong>&mdash; Barista</p>
+	  </div>
+    <img src="Photos/felafel1.JPG" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide w3-white">THE MENU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding w3-colorb">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Food</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Drinks</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+	  <h5 class="w3-tag w3-wide w3-white" style="text-decoration: underline">SOUPS</h5>
+      <h5>Tomato Bisque<span style="padding-left: 22em; text-align: right">Sm: $3</span><span style="padding-left: 3em">Lg: $4</span></h5>
+      <p class="w3-text-grey">Tomato soup with some cool spices n shit i guess</p><br>
+    
+      <h5>Chipotle Tomato Bisque<span style="padding-left: 18em; text-align: right">Sm: $3</span><span style="padding-left: 3em">Lg: $4</span></h5>
+      <p class="w3-text-grey">Tomato soup with some cool spices n shit i guess</p><br>
+    
+      <h5>Green Posole<span style="padding-left: 30em; text-align: right">$5</span></h5>
+      <p class="w3-text-grey">Sliced radish, fresh greens, hominy, shredded chicken in a spicy broth</p><br>
+      
+      <h5 class="w3-tag w3-wide w3-white" style="text-decoration: underline">SALADS</h5>
+      <h5>Caesar Salad<span style="padding-left: 30em; text-align: right">$6</span></h5>
+      <p class="w3-text-grey">Romaine lettuce, sliced tomato, caesar dressing, parmesan cheese</p><p class="w3-text-grey" style="font-size: 10pt">+Chicken $2</p><br>
+    
+      <h5>Greek Salad<span style="padding-left: 30.4em; text-align: right">$8</span></h5>
+      <p class="w3-text-grey">Salad greens, cucumber, sliced radish, feta cheese, hummus, and bread</p><p class="w3-text-grey" style="font-size: 10pt">+Chicken $2</p><br>
+      
+      <h5 class="w3-tag w3-wide w3-white" style="text-decoration: underline">SANDWICHES</h5>
+      <h5>B.L.T.<span style="padding-left: 33em; text-align: right">$8</span></h5>
+      <p class="w3-text-grey">Bacon, arugula, house tomato jam, sliced tomato on sourdough bread</p><br>
+      
+      <h5>Grilled Cheese &amp; Tomato Bisque<span style="padding-left: 21em; text-align: right">$7</span></h5>
+      <p class="w3-text-grey">Swiss, havarti, and cheddar cheese on sourdough bread</p><p class="w3-text-grey" style="font-size: 10pt">+Bacon, caramelized onions, tomato, pesto, pickled red onions $0.75 each</p><br>
+      
+      <h5>Hummus &amp; Veggies<span style="padding-left: 26.5em; text-align: right">$7</span></h5>
+      <p class="w3-text-grey">Hummus, cucumber, radish, fresh greens, cucumber vinagrette on ciabatta bread. Served with potato chips</p><p class="w3-text-grey" style="font-size: 10pt">*Hummus &amp; Bread $4</p><br>
+      
+      <h5>El Cubano<span style="padding-left: 30.8em; text-align: right">$9</span></h5>
+      <p class="w3-text-grey">Tasso ham, pulled pork, house bread &amp; butter pickles, caramelized onions, mustard, swiss cheese, on ciabatta bread. Served with potato chips</p>
+      
+      <h5>Tinga Bowl<span style="padding-left: 30.5em; text-align: right">$8</span></h5>
+      <p class="w3-text-grey">Chipotle braised chicken on a bed of fresh greens, topped with queso fresco &amp; sour cream</p>
+      
+      <h5>Pastrami<span style="padding-left: 31.5em; text-align: right">$9</span></h5>
+      <p class="w3-text-grey">House cured pastrami, swiss cheese, house pickled cabbage, and dijonaise sauce on sourdough bread. Served with potato chips</p>
+      
+      <h5>Tomato Caprese<span style="padding-left: 28em; text-align: right">$7</span></h5>
+      <p class="w3-text-grey">Sliced tomato, fresh mozzarella cheese, &amp; pesto basil</p>
+      
+      <!-- allergen information-->
+      <p class="w3-text-grey" style="font-size: 8pt">*Disclaimer: Our products may contain wheat, egg, dairy, soy, or fish allergens. In addition, our products may be processed in facilities that process tree nuts and peanuts. Please be advised consuming raw, cooked to order or undercooked meat, poultry, seafood, shellfish or eggs may increase your risk of food borne illnesses, especially if you have certain medical conditions.</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5 class="w3-tag w3-wide w3-white" style="text-decoration: underline">COFFEE DRINKS</h5>
+      <h5>Coffee</h5>
+      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+    
+      <h5>Americano</h5>
+      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+      
+      <h5>Bullet Proof Coffee</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      
+      <h5>Iced Coffee</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      
+      <h5>Honey Thai Iced Coffee</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+    
+      <h5>Cappuccino</h5>
+      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+    
+      <h5>Latte</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+    
+      <h5>Mexican Hot Chocolate</h5>
+      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p><br>
+      
+      <h5>Abuelita Latte/Mocha</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      
+      <h5>Bourbon Caramel Latte</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      
+      <h5>Nutella Latte</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+        
+      <h5>Golden Milk Latte</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      
+      <h5>London Fog</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      
+      <h5>Chai</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      
+      <h5>Matcha Green Latte</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      
+      <h5>Dirty Lemonade</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p>
+      
+      <h5 class="w3-tag w3-wide w3-white" style="text-decoration: underline">FRAPPES</h5>
+      <h5>Caramel, Vanilla, Chocolate</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p>
+      
+      <h5 class="w3-tag w3-wide w3-white" style="text-decoration: underline">SMOOTHIES</h5>
+      <h5>Caramel, Vanilla, Chocolate</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p>
+      
+      <!-- allergen information-->
+      <p class="w3-text-grey" style="font-size: 8pt">*Disclaimer: Our products may contain wheat, egg, dairy, soy, or fish allergens. In addition, our products may be processed in facilities that process tree nuts and peanuts. Please be advised consuming raw, cooked to order or undercooked meat, poultry, seafood, shellfish or eggs may increase your risk of food borne illnesses, especially if you have certain medical conditions.</p>
+    </div>  
+    <img src="Photos/cakeCoffee.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide w3-white">CONTACT US</span></h5>
+    <p><strong>Opening Hours:</strong>Mon-Fri: 7AM - 7PM, Sat: 8AM -4PM, Sun: CLOSED</p>
+    <p><strong>Phone:</strong>(219)-678-8941<strong style="padding-left: 5em">Social Media:</strong><a href="https://www.facebook.com/IndyPerk/" class="fa fa-facebook"></a></p>
+    <p>Find us at our lovely downtown Whiting location!</p>
+    <!--google maps -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.9161456023767!2d-87.49261368472656!3d41.679154385819814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8811d91a05e259e9%3A0x9301cb4a3ef876cc!2sIndy+Perk!5e0!3m2!1sen!2sus!4v1516243745734" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <p><span class="w3-tag w3-white">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <!-- form at bottom -->
+    <form  action="https://formspree.io/gabe.hass@hotmail.com" method="POST">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" name="_replyto"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-block w3-colorb" type="submit" value="Send">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-colorb w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-colorg", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-colorg";
+}
+document.getElementById("myLink").click();
+</script>
+
+
+</body>
+</html>
