@@ -50,7 +50,8 @@ body, html {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	position:relative;
+	position:inherit;
+	margin: 0 auto;
 	top: 15px;
 	left: 250px;
 }
